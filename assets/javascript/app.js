@@ -53,4 +53,4 @@ for (i = 0; i < close.length; i++) {
       div.style.display = "none";
     }
   }
-}
+};
