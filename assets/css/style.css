@@ -108,6 +108,7 @@ input {
 
 #myInput {
   color:  black;
+  border: 1px solid red;
 }
 
 /* Style the "Add" button */
