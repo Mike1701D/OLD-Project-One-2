@@ -1,4 +1,9 @@
 body {
+
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;   
   margin: 0;
   min-width: 250px;
 }
@@ -6,6 +11,10 @@ body {
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
+}
+
+h2 {
+  margin: 5px;
 }
 
 /* Remove margins and padding from the list */
@@ -76,10 +85,13 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #f44336 ;
+  background-color: white;
+  opacity: 0.7;
   padding: 30px 40px;
   color: white;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Clear floats after the header */
@@ -117,4 +129,12 @@ input {
 
 .addBtn:hover {
   background-color: #bbb;
+}
+
+#myUL {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  max-width:  500px;
+  opacity: 0.7;
 }
