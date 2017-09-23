@@ -1,3 +1,20 @@
+$(document).on("click", ".addBtn", function() {
+    var type = $("#myInput").val().trim()
+    console.log(type)
+    var youTubeURL = $("#myInput").val(trim)
+    console.log(youTubeURL)
+  
+});
+
+
+// "http://www.omdbapi.com/?apikey=1b9c323?t=" + type + "&tomatoes=true&plot=full"
+
+
+//   document.getElementsByClassName("addBtn").onclick = function() {
+//   var userInput = document.getElementById("myInput").value; 
+//   console.log("myInput");
+
+// }
 
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
