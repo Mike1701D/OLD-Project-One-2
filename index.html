@@ -18,16 +18,17 @@
     <! Add stylesheet link>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Fascinate" rel="stylesheet">
+
 
 </head>
 <body>
-	<!-- <div id="player">
+
+<div id="player">
         <audio autoplay hidden>
-            <source src="thx-soundtest.wav" type="audio/wav">
+            <source src="assets/thx-soundtest.wav" type="audio/wav">
         </audio>
     </div>
- -->
+
 <div class=jumbotron">
 <h1>Movie List Maker</h1>
 <h2>Create a Movie List & Click for Summaries</h2>
@@ -37,8 +38,32 @@
 </div>
 
 <ul id="myUL"></ul>
+
+
+
+
+
+            <h1 class="w100 text-center"><a href="index.html">Movie Search</a></h1>
+        </header>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="#">
+                    <p><input type="text" id="search" placeholder="Type something..." autocomplete="off" class="form-control" /></p>
+                    <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>
+                </form>
+                <div id="results"></div>
+            </div>
+        </div>
+
+        <iframe class="video w100" width="640" height="360" src="https://www.youtube.com/embed/qo5jJpHtI1Y" frameborder="0" allowfullscreen></iframe>
+        
+        <!-- scripts -->
+        <script type="text/javascript" src="assets/javascript/auth.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+
 </div>
-<script type="text/javascript" src="assets/javascript/app.js"></script>
+
 
 </body>
 </html>
